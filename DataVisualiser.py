@@ -33,7 +33,7 @@ app.layout = html.Div(children=[
             inline=True
         )
     ], style={'width': '100%', 'display': 'inline-block', 'padding-left': '550px'})
-])
+], id='nully-wrapper')
 
 @app.callback(
     Output('example-graph', 'figure'),
